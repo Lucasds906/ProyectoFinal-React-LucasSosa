@@ -11,7 +11,6 @@ const ItemListContainer = ({ greeting }) => {
   const { categoryId } = useParams();
 
   const { pathname, search } = useLocation();
-  //   category horror
   const path = pathname.replace("/", "").split("/");
 
 useEffect(() => {

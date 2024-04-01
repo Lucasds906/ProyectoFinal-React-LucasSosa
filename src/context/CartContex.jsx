@@ -41,11 +41,6 @@ export const CartProvider = ({ children }) => {
   };
   const totalQuantity = getTotalQuantity();
 
-  // const getAuthor = () => {
-  //   const authorUpdate = cart.filter((prod) => prod.id !== id);
-  //   setCart(cartUpdate);
-  // }
-
   return (
     <CartContext.Provider
       value={{

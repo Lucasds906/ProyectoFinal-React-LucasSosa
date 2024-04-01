@@ -1,4 +1,4 @@
-import "./App.css";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
@@ -7,8 +7,6 @@ import "./scss/style.scss";
 import { CartProvider } from "./context/CartContex";
 import { NotificationProvider } from "./context/NotificationContext";
 import DataProvider from "./context/DataProvider";
-// import SearchResult from './components/SearchResult/SearchResult'
-
 import Cart from "./components/Cart/Cart";
 import Checkout from "./components/Checkout/Checkout";
 
