@@ -1,0 +1,60 @@
+.detailContainer {
+    background-image: url(../../../public/assets/img/background0.png);
+    height: 92vh;
+    padding-top: 8rem;
+    .cardDetail {
+        display: flex;
+        flex-direction: row;
+        background-image: linear-gradient(to right bottom, #16191e, #1d2026, #24272e, #2b2e36, #32363e);
+        margin: auto;
+        width: 60%;
+        height: 70%;
+        color: #CAAF8F;
+        border-radius: 10px;
+        // text-align: center;
+        .cardDiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-image: linear-gradient(to bottom, #14171c, #171a1f, #191d22, #1c2026, #1f2329);
+            width: 4rem;
+            .cardDetailSelector {
+                &:hover {
+                    border-right: 4px solid #CAAF8F;
+                }
+            }
+        }
+        .cardInfo {
+            margin: 1rem;
+            span {
+                display: block;
+            }
+            p {
+                width: 36rem;
+                height: 12.5rem;
+                margin-top: 1rem;
+                font-size: .9rem;
+            }
+        }
+        .detailImg {
+            height: 80%;
+            margin: auto;
+            box-shadow: -15px 10px 4px rgba(6, 6, 6, 0.5);
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .cardCount {
+            // display: flex;
+            // justify-content: space-between;
+            // align-items: center;
+            height: 5rem;
+            margin: auto;
+            button {
+                all: initial;
+                cursor: pointer;
+            }
+        }
+    }
+}

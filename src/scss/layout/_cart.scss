@@ -1,0 +1,16 @@
+.cartContainer {
+  text-align: center;
+  .cardCartItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem;
+    border: 2px solid blue;
+  }
+  .headerCartItem,
+  .containerCartItem,
+  .FooterCartItem {
+    width: 16rem;
+    font-size: 0.9rem;
+  }
+}

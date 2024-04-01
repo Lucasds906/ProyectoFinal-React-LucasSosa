@@ -1,0 +1,28 @@
+
+.princess-sofia-regular {
+    font-family: "Princess Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #0D1013;
+    h3 {
+        font-size: 2.5rem;
+        color: #CAAF8F;
+    }
+    
+    .imgLogoContainer {
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        color: #CAAF8F;
+        .imgLogo {
+            width: 5rem;
+        }
+    }
+}

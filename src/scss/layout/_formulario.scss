@@ -1,0 +1,30 @@
+.formContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  #nombre,
+  #apellido,
+  #telefono,
+  #email,
+  #direccion,
+  #ciudad,
+  #codigo {
+    border: none;
+    border-bottom: 0.15rem solid black;
+    &:focus {
+      outline: none;
+    }
+  }
+  #submit {
+    margin: auto;
+    width: 50%;
+  }
+}
+.inputOculto {
+  display: none;
+}
+.inputMostrado {
+  display: block;
+}
