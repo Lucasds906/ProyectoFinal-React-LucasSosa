@@ -8,11 +8,11 @@ Luxor Libros es una plataforma en línea que ofrece una gran variedad de libros 
 
 ## ¿Cómo comprar?
 
-Visita nuestro sitio web [LuxorLibros.com](https://www.luxorlibros.com) para explorar nuestro catálogo completo y realizar tus compras de forma segura y conveniente.
+Visita nuestro sitio web (https://luxorlibros.netlify.app/) para explorar nuestro catálogo completo y realizar tus compras de forma segura y conveniente.
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarnos en https://luxorlibros.netlify.app/ o a través de nuestras redes sociales.
+Si tienes alguna pregunta o sugerencia, no dudes en contactarnos en (https://luxorlibros.netlify.app/) o a través de nuestras redes sociales.
 
 ¡Gracias por elegir Luxor Libros para tus necesidades de lectura!
 
